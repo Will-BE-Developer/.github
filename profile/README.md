@@ -47,8 +47,10 @@
   </tr>
 </table>
 
+
 <br/>
 <br/>
+
 
 ## 프로젝트 기능 소개
 
@@ -94,16 +96,22 @@
 
 - 메인 페이지에서 매일 다른 질문을 추천해줘요! 유일하게 질문을 선택할 수 있는 공간이랍니다.
 
+
 <br/>
 <br/>
+
 
 ## Architecture
 
 ![WillBe-service_architecture](https://user-images.githubusercontent.com/90495580/169758235-5dee4871-a34a-495d-a327-a6312e2bc2ec.jpg)
 
+
+<br/>
 <br/>
 
+
 ## 🛠 Tools
+
 #### Design
 
 <p>
@@ -112,39 +120,37 @@
   <img src="https://img.shields.io/badge/Adobe Illustrator-FF9A00?style=for-the-badge&logo=Adobe Illustrator&logoColor=white"/>
   <img src="https://img.shields.io/badge/Adobe Photoshop-31A8FF?style=for-the-badge&logo=Adobe Photoshop&logoColor=white"/>
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<br>
 </p>
 
-#### FrontEnd
+#### Frontend
 
 <p>
   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/npm-%232C8EBB.svg?style=for-the-badge&logo=npm&logoColor=white">
+  <img src="https://img.shields.io/badge/axios-007CE2?style=for-the-badge&logo=axios&logoColor=white" >
   <br>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
   <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
-<br>
-  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
+  <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" >
+  <br>
+  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" >
+  <img src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" >
 </p>
 
-#### BackEnd
+#### Frontend Infrastructure
+<p>
+  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" > 
+  <img src="https://img.shields.io/badge/AWS amplify-CA4245?style=for-the-badge&logo=AWS amplify&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
+  <img src="https://img.shields.io/badge/route53-F7A81B?style=for-the-badge&logo=route53&logoColor=white">
+</p>
+
+
+#### Backend
 
 <p>
-
   <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql& logoColor=white">
-  <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&  logoColor=white">
   <img src="https://img.shields.io/badge/AWS Ec2-232F3E?style=for-the-badge&  logo=amazonaws&logoColor=white">
   <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
-
-<br>
 </p>
-
-#### Dev tools
-
-<p> 
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
-<br>
