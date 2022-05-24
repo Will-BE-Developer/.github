@@ -146,15 +146,63 @@
 <p>
   <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" > 
   <img src="https://img.shields.io/badge/AWS amplify-CA4245?style=for-the-badge&logo=AWS amplify&logoColor=white">
-  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
   <img src="https://img.shields.io/badge/route53-F7A81B?style=for-the-badge&logo=route53&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
 </p>
-
 
 #### Backend
 
 <p>
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql& logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">  
   <img src="https://img.shields.io/badge/AWS Ec2-232F3E?style=for-the-badge&  logo=amazonaws&logoColor=white">
   <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
 </p>
+
+
+#### Backend Infrastructure
+<p>
+  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" > 
+  <img src="https://img.shields.io/badge/AWS Ec2-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"> 
+  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
+  <img src="https://img.shields.io/badge/route53-F7A81B?style=for-the-badge&logo=route53&logoColor=white">
+</p>
+
+<br>
+<br>
+
+
+## 🔥 Trouble Shooting
+<details>   
+<summary>Frontend Trouble Shooting</summary>
+
+### Issue1
+
+동영상을 인코딩할때 MediaRecorder에서 지원하는 코덱중 대부분 플랫폼에서 사용가능한 vp8 코덱과 해당 코덱으로 만들 수 있는 webm컨테이너를 사용하여 동영상을 인코딩하였더니, IOS에서는 재생되지 않는 문제가 발생하였습니다.
+
+#### 원인
+
+IOS15부터 webm audio는 지원하지만 아직 영상은 지원하지 않는다는 사실을 알게되었습니다.
+
+#### 해결 순서
+
+1. mp4컨테이너를 사용하려고 mediarecorder를 다시 찾아본 결과 h264코덱은 지원하지만 mp4 mimeType을 지원하지 않았습니다.
+2. ffmpeg.wasm를 이용하여 브라우저에서 mp4로 컨버팅이 가능하였지만 작업 도중에 브라우저를 종료하게 된다면 컨버팅 과정이 모두 날아가고 유저의 대기시간을 생각하여서 다른 방안을 찾았습니다.
+3. 브라우저에서 webm으로 인코딩 후 S3에 저장한 뒤 서버에서 mp4로 컨버팅 하기로 결정하였고, 서버에서 FFmpeg로 컨버팅하여 저장하였습니다.
+
+<br/>
+
+### Issue2 (WebRTC 관련 에러 핸들링)
+
+#### 유저가 카메라 접근을 차단했을 경우
+- 카메라가 차단되었다는 안내와 함께 해제 방법을 안내하는 이미지를 보여줍니다. ![Frame 1028](https://user-images.githubusercontent.com/90495580/169949359-9a10d960-847c-440b-9530-dcb1ae20ba13.png)
+
+#### Internet explorer 에서 접속할 경우
+
+- IE는 지원하지 않기 때문에 다른 브라우저로 접속을 유도하는 안내문을 보여줍니다. ![스크린샷 2022-05-24 오후 12 30 00](https://user-images.githubusercontent.com/90495580/169949592-ecea91e8-8976-460c-8fb7-586266bddd60.png)
+</details>
+
+<br>
+<details>
+<summary>Backend Trouble Shooting</summary>
+
+</details>
