@@ -1,3 +1,5 @@
+  <img src="https://user-images.githubusercontent.com/88864019/170627059-f7b49422-9d78-491e-8602-a1b603bab5bc.png"/>
+
 # [Will BE](https://willbedeveloper.com/)
 
 <b>개발자로 취업하고싶은 사람들을 위한 화상면접 연습 커뮤니티</b>
@@ -16,7 +18,7 @@
 
 <br/>
 
-### 프로젝트 기간
+### 📆 프로젝트 기간
 
 - 2022.04.29 ~ 2022.06.03
 <br/>
